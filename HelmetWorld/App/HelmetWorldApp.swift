@@ -12,6 +12,7 @@ struct HelmetWorldApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(Shop() )
         }
     }
 }

@@ -42,6 +42,7 @@
 		BE3BAEAB2A6C05970074FF43 /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAEAA2A6C05970074FF43 /* RatingsSizesDetailView.swift */; };
 		BE3BAEAD2A6C08D50074FF43 /* QuantityFavoriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAEAC2A6C08D50074FF43 /* QuantityFavoriteDetailView.swift */; };
 		BE3BAEAF2A6C0A770074FF43 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAEAE2A6C0A770074FF43 /* AddToCartDetailView.swift */; };
+		BE3BAEB12A6C0C540074FF43 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAEB02A6C0C540074FF43 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		BE3BAEAA2A6C05970074FF43 /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
 		BE3BAEAC2A6C08D50074FF43 /* QuantityFavoriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavoriteDetailView.swift; sourceTree = "<group>"; };
 		BE3BAEAE2A6C0A770074FF43 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		BE3BAEB02A6C0C540074FF43 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				BE3BAE7A2A6BBBE60074FF43 /* Constant.swift */,
 				BE3BAE822A6BC59B0074FF43 /* SafeAreaInsets.swift */,
 				BE3BAEA82A6C00690074FF43 /* CustomShape.swift */,
+				BE3BAEB02A6C0C540074FF43 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				BE3BAE912A6BD8FC0074FF43 /* CategoryGridView.swift in Sources */,
 				BE3BAE5E2A6BB8C10074FF43 /* ContentView.swift in Sources */,
 				BE3BAE932A6BDA940074FF43 /* SectionView.swift in Sources */,
+				BE3BAEB12A6C0C540074FF43 /* Shop.swift in Sources */,
 				BE3BAE972A6BDFDF0074FF43 /* ProductModel.swift in Sources */,
 				BE3BAEAD2A6C08D50074FF43 /* QuantityFavoriteDetailView.swift in Sources */,
 				BE3BAE8D2A6BD6F00074FF43 /* CategoryModel.swift in Sources */,
