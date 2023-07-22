@@ -11,6 +11,10 @@
 		BE3BAE5E2A6BB8C10074FF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAE5D2A6BB8C10074FF43 /* ContentView.swift */; };
 		BE3BAE602A6BB8C20074FF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE5F2A6BB8C20074FF43 /* Assets.xcassets */; };
 		BE3BAE632A6BB8C20074FF43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE622A6BB8C20074FF43 /* Preview Assets.xcassets */; };
+		BE3BAE6E2A6BBAB00074FF43 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE6A2A6BBAB00074FF43 /* category.json */; };
+		BE3BAE6F2A6BBAB00074FF43 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE6B2A6BBAB00074FF43 /* product.json */; };
+		BE3BAE702A6BBAB00074FF43 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE6C2A6BBAB00074FF43 /* brand.json */; };
+		BE3BAE712A6BBAB00074FF43 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE6D2A6BBAB00074FF43 /* player.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BE3BAE5D2A6BB8C10074FF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE3BAE5F2A6BB8C20074FF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE3BAE622A6BB8C20074FF43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE3BAE6A2A6BBAB00074FF43 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		BE3BAE6B2A6BBAB00074FF43 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		BE3BAE6C2A6BBAB00074FF43 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		BE3BAE6D2A6BBAB00074FF43 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 		BE3BAE5A2A6BB8C10074FF43 /* HelmetWorld */ = {
 			isa = PBXGroup;
 			children = (
+				BE3BAE692A6BBA8B0074FF43 /* Data */,
 				BE3BAE5B2A6BB8C10074FF43 /* HelmetWorldApp.swift */,
 				BE3BAE5D2A6BB8C10074FF43 /* ContentView.swift */,
 				BE3BAE5F2A6BB8C20074FF43 /* Assets.xcassets */,
@@ -65,6 +74,17 @@
 				BE3BAE622A6BB8C20074FF43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE3BAE692A6BBA8B0074FF43 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BE3BAE6C2A6BBAB00074FF43 /* brand.json */,
+				BE3BAE6A2A6BBAB00074FF43 /* category.json */,
+				BE3BAE6D2A6BBAB00074FF43 /* player.json */,
+				BE3BAE6B2A6BBAB00074FF43 /* product.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3BAE712A6BBAB00074FF43 /* player.json in Resources */,
+				BE3BAE6E2A6BBAB00074FF43 /* category.json in Resources */,
+				BE3BAE702A6BBAB00074FF43 /* brand.json in Resources */,
+				BE3BAE6F2A6BBAB00074FF43 /* product.json in Resources */,
 				BE3BAE632A6BB8C20074FF43 /* Preview Assets.xcassets in Resources */,
 				BE3BAE602A6BB8C20074FF43 /* Assets.xcassets in Resources */,
 			);
