@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE3BAE5C2A6BB8C10074FF43 /* HelmetWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAE5B2A6BB8C10074FF43 /* HelmetWorldApp.swift */; };
+		BE3BAE5C2A6BB8C10074FF43 /* AFootballStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAE5B2A6BB8C10074FF43 /* AFootballStoreApp.swift */; };
 		BE3BAE5E2A6BB8C10074FF43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BAE5D2A6BB8C10074FF43 /* ContentView.swift */; };
 		BE3BAE602A6BB8C20074FF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE5F2A6BB8C20074FF43 /* Assets.xcassets */; };
 		BE3BAE632A6BB8C20074FF43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3BAE622A6BB8C20074FF43 /* Preview Assets.xcassets */; };
@@ -46,8 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE3BAE582A6BB8C10074FF43 /* HelmetWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelmetWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE3BAE5B2A6BB8C10074FF43 /* HelmetWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelmetWorldApp.swift; sourceTree = "<group>"; };
+		BE3BAE582A6BB8C10074FF43 /* AFootballStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFootballStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3BAE5B2A6BB8C10074FF43 /* AFootballStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFootballStoreApp.swift; sourceTree = "<group>"; };
 		BE3BAE5D2A6BB8C10074FF43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE3BAE5F2A6BB8C20074FF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE3BAE622A6BB8C20074FF43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		BE3BAE4F2A6BB8C00074FF43 = {
 			isa = PBXGroup;
 			children = (
-				BE3BAE5A2A6BB8C10074FF43 /* HelmetWorld */,
+				BE3BAE5A2A6BB8C10074FF43 /* AFootballStore */,
 				BE3BAE592A6BB8C10074FF43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,12 +108,12 @@
 		BE3BAE592A6BB8C10074FF43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE3BAE582A6BB8C10074FF43 /* HelmetWorld.app */,
+				BE3BAE582A6BB8C10074FF43 /* AFootballStore.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE3BAE5A2A6BB8C10074FF43 /* HelmetWorld */ = {
+		BE3BAE5A2A6BB8C10074FF43 /* AFootballStore */ = {
 			isa = PBXGroup;
 			children = (
 				BE3BAE732A6BBB520074FF43 /* App */,
@@ -126,7 +126,7 @@
 				BE3BAE5F2A6BB8C20074FF43 /* Assets.xcassets */,
 				BE3BAE612A6BB8C20074FF43 /* Preview Content */,
 			);
-			path = HelmetWorld;
+			path = AFootballStore;
 			sourceTree = "<group>";
 		};
 		BE3BAE612A6BB8C20074FF43 /* Preview Content */ = {
@@ -151,7 +151,7 @@
 		BE3BAE732A6BBB520074FF43 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				BE3BAE5B2A6BB8C10074FF43 /* HelmetWorldApp.swift */,
+				BE3BAE5B2A6BB8C10074FF43 /* AFootballStoreApp.swift */,
 				BE3BAE5D2A6BB8C10074FF43 /* ContentView.swift */,
 				BE3BAEA02A6BF8630074FF43 /* ProductDetailView.swift */,
 			);
@@ -232,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE3BAE572A6BB8C10074FF43 /* HelmetWorld */ = {
+		BE3BAE572A6BB8C10074FF43 /* AFootballStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE3BAE662A6BB8C20074FF43 /* Build configuration list for PBXNativeTarget "HelmetWorld" */;
+			buildConfigurationList = BE3BAE662A6BB8C20074FF43 /* Build configuration list for PBXNativeTarget "AFootballStore" */;
 			buildPhases = (
 				BE3BAE542A6BB8C10074FF43 /* Sources */,
 				BE3BAE552A6BB8C10074FF43 /* Frameworks */,
@@ -244,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = HelmetWorld;
+			name = AFootballStore;
 			productName = HelmetWorld;
-			productReference = BE3BAE582A6BB8C10074FF43 /* HelmetWorld.app */;
+			productReference = BE3BAE582A6BB8C10074FF43 /* AFootballStore.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BE3BAE532A6BB8C00074FF43 /* Build configuration list for PBXProject "HelmetWorld" */;
+			buildConfigurationList = BE3BAE532A6BB8C00074FF43 /* Build configuration list for PBXProject "AFootballStore" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -277,7 +277,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE3BAE572A6BB8C10074FF43 /* HelmetWorld */,
+				BE3BAE572A6BB8C10074FF43 /* AFootballStore */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 				BE3BAEA32A6BF98E0074FF43 /* NavigationBarDetailView.swift in Sources */,
 				BE3BAEAB2A6C05970074FF43 /* RatingsSizesDetailView.swift in Sources */,
 				BE3BAE992A6BF2F70074FF43 /* ProductItemView.swift in Sources */,
-				BE3BAE5C2A6BB8C10074FF43 /* HelmetWorldApp.swift in Sources */,
+				BE3BAE5C2A6BB8C10074FF43 /* AFootballStoreApp.swift in Sources */,
 				BE3BAE7B2A6BBBE60074FF43 /* Constant.swift in Sources */,
 				BE3BAEA12A6BF8630074FF43 /* ProductDetailView.swift in Sources */,
 				BE3BAE8B2A6BD24E0074FF43 /* FeaturedTabView.swift in Sources */,
@@ -460,11 +460,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelmetWorld/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AFootballStore/Preview Content\"";
 				DEVELOPMENT_TEAM = TB9FQULP95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelmetWorld/Info.plist;
+				INFOPLIST_FILE = AFootballStore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AFootballStore;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -474,7 +475,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vedatozlu.HelmetWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedatozlu.AFootballStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -489,11 +490,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelmetWorld/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AFootballStore/Preview Content\"";
 				DEVELOPMENT_TEAM = TB9FQULP95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HelmetWorld/Info.plist;
+				INFOPLIST_FILE = AFootballStore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AFootballStore;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -503,7 +505,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vedatozlu.HelmetWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedatozlu.AFootballStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -514,7 +516,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE3BAE532A6BB8C00074FF43 /* Build configuration list for PBXProject "HelmetWorld" */ = {
+		BE3BAE532A6BB8C00074FF43 /* Build configuration list for PBXProject "AFootballStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE3BAE642A6BB8C20074FF43 /* Debug */,
@@ -523,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE3BAE662A6BB8C20074FF43 /* Build configuration list for PBXNativeTarget "HelmetWorld" */ = {
+		BE3BAE662A6BB8C20074FF43 /* Build configuration list for PBXNativeTarget "AFootballStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE3BAE672A6BB8C20074FF43 /* Debug */,
